@@ -1,7 +1,9 @@
 # mac_install_packages
-Macの環境構築用shコマンド集です。
 
+Mac の環境構築用 sh コマンド集です。
 
-# 構築内容
+## 構築内容
+
 - brew
 - node
+- python
