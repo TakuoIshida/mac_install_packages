@@ -1,3 +1,4 @@
+#!bin/bash
 brew install nodebrew
 nodebrew -v
 nodebrew setup
