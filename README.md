@@ -6,4 +6,5 @@ Mac の環境構築用 sh コマンド集です。
 
 - brew
 - node
+- npm
 - python
