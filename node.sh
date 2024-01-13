@@ -8,7 +8,9 @@ node -v
 
 # npm
 volta install npm
+volta install pnpm
 npm -v
+pnpm -v
 
 # 特定のversionの場合
 # volta install node@14.15.5
