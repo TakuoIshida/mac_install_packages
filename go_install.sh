@@ -15,5 +15,9 @@ go install github.com/cosmtrek/air@latest
 export PATH=$PATH:$(go env GOPATH)/bin
 air -v
 
+# go のmigration toolのinstall
+brew install golang-migrate
+migrate -version
+
 # installしたpackageのpathを設定しないとpakcageを実行できない
 export PATH=$PATH:$HOME/go/bin
