@@ -12,12 +12,15 @@ dlv version
 
 # live reloadのinstall
 go install github.com/cosmtrek/air@latest
-export PATH=$PATH:$(go env GOPATH)/bin
 air -v
 
 # go のmigration toolのinstall
 brew install golang-migrate
 migrate -version
 
+#mockgenのinstall
+go install go.uber.org/mock/mockgen@latest
+go install github.com/sanposhiho/gomockhandler@latest
+
 # installしたpackageのpathを設定しないとpakcageを実行できない
-export PATH=$PATH:$HOME/go/bin
+echo "export PATH=$PATH:$(go env GOPATH)/bin" >> "$HOME/.zshrc"
