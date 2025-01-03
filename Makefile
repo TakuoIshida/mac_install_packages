@@ -32,3 +32,7 @@ install-migration:
 
 set-path: #optional
 	echo "export PATH=$PATH:$(go env GOPATH)/bin" >> "$HOME/.zshrc"
+
+install-github-cli:
+	brew install gh
+	gh --version
