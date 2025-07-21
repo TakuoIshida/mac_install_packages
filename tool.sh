@@ -12,3 +12,6 @@ npm install -g @anthropic-ai/claude-code
 # bun
 curl -fsSL https://bun.sh/install | bash
 bun --version
+
+# gemini mcp
+npx https://github.com/google-gemini/gemini-cli
